@@ -1,0 +1,16 @@
+
+Build my own image with latest tag.
+
+Update the Dockerfile release version.
+
+If the build script does not exists
+touch docker_build.sh
+chmod +x docker_build.sh 
+
+
+The usual thing
+./docker_build.sh 
+export DOCKER_REGISTRY_SERVER=dockerregistry.impcrax.xyz
+docker_push sam/obsidian-remote:1.5.3
+
+
